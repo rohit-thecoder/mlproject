@@ -19,6 +19,7 @@ from src.utils import save_object
 
 # ================= CONFIG CLASS =================
 # Yeh class preprocessing object ka path store karegi
+
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path: str = os.path.join("artifacts", "preprocessor.pkl")
